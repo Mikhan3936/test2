@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Oct 14 09:04:45 2021
@@ -212,7 +212,7 @@ def main():
         master=root
     )
     
-    frame.grid()
+    frame.grid(columnspan=8)
     global text1
     text1 = ''
     lbl = tk.Label(master=frame, text=text1)
